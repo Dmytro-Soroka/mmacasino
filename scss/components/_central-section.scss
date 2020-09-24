@@ -1,0 +1,40 @@
+.central-section {
+  display: block;
+  text-align: center;
+
+  position: relative;
+  padding-top: 61px;
+  padding-bottom: 198px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.logo {
+  width: 210px;
+  height: 100px;
+}
+
+.logo-box {
+  position: absolute;
+  top: 6px;
+  left: 855px;
+}
+
+.king {
+  width: 781px;
+  height: 821px;
+}
+
+.title {
+  position: absolute;
+  top: 865px;
+  left: 765px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: liner-gradient (to right, FA951F, FFE071);
+
+  text-shadow: 3px 0px 0px #a75000, 0px 7px 21px #000000,
+    0px 1px 2px rgba(0, 0, 0, 0.25);
+}
