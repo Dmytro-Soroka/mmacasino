@@ -1,0 +1,39 @@
+.left-section {
+  padding-left: auto;
+  position: relative;
+}
+
+.left-character {
+  position: absolute;
+
+  width: 824px;
+  height: 1000px;
+  top: 80px;
+}
+
+.left-bonus {
+  position: absolute;
+
+  width: 509px;
+  height: 104px;
+  left: 315px;
+  top: 256px;
+
+  box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.41),
+    inset 0px 1px 7px rgba(255, 249, 226, 0.65);
+  filter: drop-shadow(3px 0px 0px #a75000), drop-shadow(0px 7px 21px #000000);
+}
+
+.left-button {
+  position: absolute;
+
+  width: 364px;
+  height: 74.81px;
+  left: 372px;
+  top: 390px;
+
+  border: none;
+  background-image: url(.../images/take_bonus.png);
+
+  text-transform: uppercase;
+}

@@ -3,4 +3,16 @@ body {
   font-weight: 900;
   font-size: 42px;
   line-height: 80%;
+
+  position: relative;
+
+  padding-left: 0;
+  margin: 0;
+
+  background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.5, url(.../image/bg.jpg);
+}
+
+.main-contant {
+  display: flex;
 }
